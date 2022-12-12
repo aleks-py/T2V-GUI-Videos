@@ -31,7 +31,7 @@ app.layout = html.Div([
 
     # imagen
     html.Video(
-        controls=False,
+        controls=True,
         id='imagen_link',
         src=imagen_links[0],
         autoPlay=True,
